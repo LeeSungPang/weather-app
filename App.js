@@ -37,6 +37,7 @@ export default class extends React.Component {
       Alert.alert("Can't find you.", "So sad");
     }
   };
+
   componentDidMount() {
     this.getLocation();
   }
